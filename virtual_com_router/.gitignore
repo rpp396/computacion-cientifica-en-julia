@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+VENV/
+.VENV/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Secrets (example, if any were to be added)
+# secrets.json
+# .env
+
+# Com0com specific (if it generates local logs or config not needed in repo)
+# *.log (if com0com or our app makes local logs we don't want) 
+# Note: Be careful not to ignore actual log files if they are meant to be example outputs.
+# For now, we won't add specific com0com log ignores unless we know they're created here.
